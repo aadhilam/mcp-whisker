@@ -1,0 +1,40 @@
+{
+  "name": "calico-whisker-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Calico Whisker flow log analysis",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "cli": "tsx src/cli.ts",
+    "test": "jest",
+    "test-connection": "tsx src/test-connection-flow.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "@types/js-yaml": "^4.0.9",
+    "axios": "^1.6.0",
+    "commander": "^11.1.0",
+    "js-yaml": "^4.1.0",
+    "node-ssh": "^13.1.0",
+    "yaml": "^2.3.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.8.0",
+    "jest": "^29.7.0",
+    "tsx": "^4.6.0",
+    "typescript": "^5.2.0"
+  },
+  "keywords": [
+    "mcp",
+    "calico",
+    "whisker",
+    "kubernetes",
+    "network-policy"
+  ],
+  "author": "",
+  "license": "MIT"
+}
