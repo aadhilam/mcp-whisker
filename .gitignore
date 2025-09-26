@@ -5,18 +5,18 @@ yarn-debug.log*
 yarn-error.log*
 
 # Build output
-/dist/
-/build/
-/out/
-/tmp/
-/temp/
+dist/
+build/
+out/
+tmp/
+temp/
 
 # TypeScript
 *.tsbuildinfo
 
 # Testing
-/coverage/
-/.nyc_output/
+coverage/
+.nyc_output/
 
 # Logs
 logs/
